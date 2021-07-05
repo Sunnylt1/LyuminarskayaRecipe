@@ -1,0 +1,37 @@
+﻿<Page x:Class="LyuminarskayaRecipe.StartPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LyuminarskayaRecipe"
+      mc:Ignorable="d" 
+      d:DesignHeight="731" d:DesignWidth="411"
+      Title="StartPage">
+
+    <Grid Background="White">
+        <Border BorderBrush="#FFEFD599" BorderThickness="1" HorizontalAlignment="Left" Height="68" Margin="0,663,0,0" VerticalAlignment="Top" Width="411" Background="#FFEFD599">
+            <Button Margin="338,0,9,-1" Background="Transparent" BorderBrush="Transparent">
+                <Image Height="57" Source="man.png" Stretch="Fill" Width="52"/>
+            </Button>
+        </Border>
+        <Image Margin="10,500,10,105" Source="Image4.png" Stretch="Fill"/>
+        <Image Margin="10,326,10,279" Source="Image5.png" Stretch="Fill"/>
+        <Image Margin="10,136,10,469" Source="Image6.png" Stretch="Fill"/>
+        <Label Content="Articles" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" FontSize="24" Foreground="#FF683529"/>
+        <Label Content="Today" HorizontalAlignment="Left" Margin="10,89,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#FF683529"/>
+        <Label Content="Yesterday" HorizontalAlignment="Left" Margin="10,284,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#FF683529"/>
+        <Label Content="27.05.2020" HorizontalAlignment="Left" Margin="10,458,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#FF683529"/>
+        <TextBox HorizontalAlignment="Left" Height="37" Margin="10,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" Background="#FFE5E5E5" FontSize="22"/>
+        <Button Content="Поиск" HorizontalAlignment="Left" Margin="326,42,0,0" VerticalAlignment="Top" Width="75" Height="37" FontSize="20" Background="#FFE5E5E5" Foreground="#FF683529"/>
+        <Button HorizontalAlignment="Left" Margin="246,663,0,0" VerticalAlignment="Top" Width="75" Height="68" BorderBrush="Transparent" Background="Transparent">
+            <Image Height="48" Source="heart.png" Stretch="Fill" Width="53"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="136,663,0,0" VerticalAlignment="Top" Width="75" Height="68" Background="Transparent" BorderBrush="Transparent">
+            <Image Height="51" Source="loupe (3).png" Stretch="Fill" Width="53"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="29,663,0,0" VerticalAlignment="Top" Width="75" Height="68" Background="Transparent" BorderBrush="Transparent">
+            <Image Height="45" Source="contract.png" Stretch="Fill" Width="60"/>
+        </Button>
+
+    </Grid>
+</Page>

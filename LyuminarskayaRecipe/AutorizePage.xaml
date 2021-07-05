@@ -1,0 +1,27 @@
+﻿<Page x:Class="LyuminarskayaRecipe.AutorizePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LyuminarskayaRecipe"
+      mc:Ignorable="d" 
+      d:DesignHeight="731" d:DesignWidth="411"
+      Title="AutorizePage">
+
+    <Grid>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="218" VerticalAlignment="Top" Width="411" Background="#FFEFD599">
+            <Label Content="Food&#xA;Recipe " FontFamily="/LyuminarskayaRecipe;component/#Preface Sans" FontSize="72" Foreground="#FFFFFF" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        </Border>
+        <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="513" Margin="0,218,0,0" VerticalAlignment="Top" Width="411" Background="White"/>
+        <TextBox x:Name="txbAccount"  HorizontalAlignment="Left" Height="42" Margin="43,345,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="326" FontSize="20" Background="#FFE5E5E5"/>
+        <Label Content="Sing In" HorizontalAlignment="Left" Margin="27,236,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="/LyuminarskayaRecipe;component/#Preface Sans Light" RenderTransformOrigin="0.63,0.397" BorderBrush="#FF683529" Foreground="#FF683529"/>
+        <Button Content="Sign In" Margin="65.078,532.26,0,0" VerticalAlignment="Top" Width="278.422" Height="43.333" FontSize="22" HorizontalAlignment="Left" BorderThickness="1" UseLayoutRounding="False" Cursor="No" RenderTransformOrigin="1,1" Background="#FFEFD599" Click="Button_Click_2" Foreground="#FF683529"/>
+        <Button Content="Create a new account&#xA;" HorizontalAlignment="Left" Margin="64,599,0,0" VerticalAlignment="Top" Width="278" Height="43" FontSize="22" Click="Button_Click" Background="#FF9C9C9C" Foreground="White"/>
+        <Button Content="Back&#xA;" HorizontalAlignment="Left" Margin="64,664,0,0" VerticalAlignment="Top" Width="278" Height="44" FontSize="22" Click="Button_Click_1" Background="#FF9C9C9C" Foreground="White"/>
+        <Label Content="Account" HorizontalAlignment="Left" Margin="43,301,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="/LyuminarskayaRecipe;component/#Preface Sans Light" RenderTransformOrigin="0.63,0.397" BorderBrush="#FF683529" Foreground="#FF683529"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="43,406,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="/LyuminarskayaRecipe;component/#Preface Sans Light" RenderTransformOrigin="0.63,0.397" BorderBrush="#FF683529" Foreground="#FF683529"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="246,448,0,0" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="passBox" HorizontalAlignment="Left" Margin="43,448,0,0" VerticalAlignment="Top" Width="326" Height="42" Background="#FFE5E5E5"/>
+
+    </Grid>
+</Page>
